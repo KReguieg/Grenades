@@ -1613,6 +1613,7 @@ GameObject:
   - component: {fileID: 1190131443}
   - component: {fileID: 1190131437}
   - component: {fileID: 1190131438}
+  - component: {fileID: 1190131439}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -1646,6 +1647,17 @@ MonoBehaviour:
   throwForce: 10
   grenadePrefab: {fileID: 1969079181493850, guid: d6ba9e393b4538a4b8069e9bca763819,
     type: 2}
+--- !u!114 &1190131439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1190131436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c30f8be7b954bc243a3a1a2630a6be5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!81 &1190131443
 AudioListener:
   m_ObjectHideFlags: 0
